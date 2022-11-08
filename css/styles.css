@@ -274,9 +274,23 @@ html{
         background-color: #2F303A;
         }
 
+
         .hero-image{
+            
             background-color: #2F303A;
-            background-image: url(../images/hero.jpg);
+            background-image: linear-gradient(
+                to right,
+                 rgba(47, 48, 58, 0.4),
+                 rgba(47, 48, 58, 0.4)),
+                url(../images/hero.jpg);
+            max-width: 1600px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        
         }
 
         .hero-title{
@@ -439,6 +453,25 @@ html{
             text-align: center;
             letter-spacing: 0.03em;
             color: var(--text-color-second);
+        }
+
+        .clients{
+            padding-top: 94px;
+            padding-bottom: 94px;
+            background-color: #FFFFFF;
+        }
+
+        .clients-title{
+        margin-bottom: 50px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+color: #212121;
         }
         
         
