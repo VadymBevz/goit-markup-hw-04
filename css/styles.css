@@ -535,6 +535,7 @@ html{
             padding-bottom: 94px;
             background-color: #FFFFFF;
         }
+        
 
         .clients-title{
         margin-bottom: 50px;
@@ -546,7 +547,26 @@ html{
         text-align: center;
         letter-spacing: 0.03em;
 
+        
+
 color: #212121;
+        }
+
+        .clients-list{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            
+        }
+
+        .clients-images{
+        margin-right: 30px;
+        }
+
+        .clients-images:last-child{
+            margin-right: 0px;
         }
         
         
