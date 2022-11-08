@@ -267,12 +267,20 @@ html{
         
         /* Hero */
         .hero{
+        
             padding-top: 200px;
             padding-bottom: 200px;
             text-align: center;
         background-color: #2F303A;
         }
+
+        .hero-image{
+            background-color: #2F303A;
+            background-image: url(../images/hero.jpg);
+        }
+
         .hero-title{
+            
             margin-bottom: 40px;
             margin-top: 0;
             font-weight: 900;
