@@ -180,6 +180,26 @@ html{
         .meil{
             margin-right: 50px;
         }
+
+        .icon-meil::before{
+            margin-right: 10px;
+            display: inline-block;
+        width: 16px;
+        height: 12px;
+        content: "";
+        background-image: url(../images/envelope.png);
+        background-size: contain;
+       }
+       
+       .icon-smartphone::before{
+        margin-right: 10px;
+        display: inline-block;
+        width: 16px;
+        height: 12px;
+        content: "" ;
+        background-image: url(../images/smartphone.png);
+       }
+       
     
         .main-nav{
         display: flex;
