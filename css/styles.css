@@ -192,12 +192,15 @@ html{
        }
        
        .icon-smartphone::before{
+        
         margin-right: 10px;
         display: inline-block;
-        width: 16px;
-        height: 12px;
+        width: 10px;
+        height: 16px;
         content: "" ;
         background-image: url(../images/smartphone.png);
+        background-size: contain;
+        background-repeat: no-repeat;
        }
        
     
@@ -382,6 +385,58 @@ html{
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--text-color-second);
+        }
+
+        .features-lists::before{
+            display: block;
+            content: "" ;
+            height: 120px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #F5F4FA;
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+
+        .icon-antena::before{
+        background-image: url(../images/antenna\ 1\ \(1\).png);
+        width: 270px;
+        height: 120px;
+        left: 215px;
+        top: 774px;
+        border-radius: 4px;
+        background-size: 65px;
+        
+        }
+
+        .icon-clock::before{
+        background-image: url(../images/clock\ 1.svg);
+        left: 2.15%;
+        right: 2.2%;
+        top: 0%;
+        bottom: 0%;
+        background-size: 67px;
+        
+        }
+
+        .icon-diagram::before{
+        background-image: url(../images/diagram\ 1.svg);
+        left: 0%;
+        right: 0%;
+        top: 11.71%;
+        bottom: 11.59%;
+        background-size: 70px;
+        }
+
+        .icon-astrounat::before{
+        
+        background-image: url(../images/astronaut\ 1.svg);
+        left: 0%;
+        right: 21.67%;
+        top: 7.47%;
+        bottom: 5.87%;
+        background-size: 60px;
         }
     
         .pictures-line{
