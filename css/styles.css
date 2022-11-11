@@ -546,7 +546,21 @@ html{
         height: 100%;
         border-radius: 50%;
         background-color: tomato;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .team-social-links{
+        fill: #AFB1B8;
+        }
+
+        .social-links:hover{
+            background-color: #2196F3;
+        }
+
+        .social-links:hover .team-social-links{
+        fill: #FFFFFF;
         }
 
         .clients{
@@ -778,7 +792,7 @@ color: #212121;
         }
 
        .join-title{
-        
+        margin-bottom: 20px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
