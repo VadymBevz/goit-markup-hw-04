@@ -222,6 +222,7 @@ html{
         color: #2196F3;
        }
        
+       
     
         .main-nav{
         display: flex;
@@ -245,15 +246,18 @@ html{
     
         
         .meil a{
+            
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         color: var(--text-color-second);
-        margin-bottom: 9px;
+        
         }
         .telefon a{
+            display: flex;
+            align-items: center;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 500;
@@ -261,6 +265,11 @@ html{
             line-height: 1.71;
             letter-spacing: 0.03em;
             color: var(--text-color-second);
+            
+        }
+
+        .info{
+        align-items: center;
         }
         
         .site-nav-two .link:hover,
